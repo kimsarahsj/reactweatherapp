@@ -1,0 +1,43 @@
+.Weather {
+  border: 1px solid #d3d3d3;
+  font-family: "Wix Madefor Display", Tahoma, Geneva, Verdana, sans-serif;
+  color: #70757a;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  font-weight: 100;
+  line-height: 26px;
+}
+
+ ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 14px;
+  font-weight: none;
+  line-height: 20px;
+  list-style: none;
+}
+
+
+.Weather .temperature {
+  color: #202124;
+  font-weight: 400;
+  font-size: 64px;
+  font-family: "Wix Madefor Display", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.Weather .unit {
+  font-size: 18px;
+  margin-left: 2px;
+  position: relative;
+  top: -32px;
+}
