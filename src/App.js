@@ -9,13 +9,14 @@ function App() {
         <Weather defaultCity="Atlanta" />
         <footer>
           This project was coded by{" "}
-          <a>
+          <a href="#">
             Sarah Kim
           </a>{" "}
           and is {""}
           <a
             href="https://github.com/kimsarahsj/reactweatherapp"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced on Github
           </a>
