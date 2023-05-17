@@ -1,27 +1,31 @@
 import logo from './logo.svg';
-import React from "react";
-import Weather from "./Weather";
+import Weather from './Weather'
 import './App.css';
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <div className="container">
         <Weather defaultCity="Atlanta" />
         <footer>
           This project was coded by{" "}
-          <a>
+          <a
+            href=""
+            target="_blank"
+          >
             Sarah Kim
           </a>{" "}
           and is {""}
           <a
-            href="https://github.com/kimsarahsj/reactweatherapp"
+            href=""
             target="_blank"
           >
-            open-sourced</a> on Github
-          
+            open-sourced on Github
+          </a>
         </footer>
       </div>
     </div>
   );
 }
+
+export default App;
