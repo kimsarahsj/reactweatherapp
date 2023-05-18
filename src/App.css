@@ -8,3 +8,10 @@
   margin: 10px 0;
   text-align: center;
 }
+
+body {
+  background: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+}
